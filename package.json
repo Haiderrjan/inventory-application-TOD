@@ -1,0 +1,27 @@
+{
+  "name": "inventory-application-tod",
+  "version": "1.0.0",
+  "description": "wip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haiderrjan/inventory-application-TOD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Haiderrjan/inventory-application-TOD/issues"
+  },
+  "homepage": "https://github.com/Haiderrjan/inventory-application-TOD#readme",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "ejs-mate": "^4.0.0",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}

@@ -1,0 +1,8 @@
+<%- include('../layouts/boilerplate') %>
+
+    <h1>all the books:</h1>
+    <% for(let b of books) { %>
+    <h3><%= b.book_name %></h3>
+    <p><%= b.book_description %></p>
+    <a href="/book/<%=b.id %>">view book</a>
+    <% } %>

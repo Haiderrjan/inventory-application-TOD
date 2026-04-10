@@ -1,0 +1,10 @@
+<%- include('../layouts/boilerplate') %>
+
+   <h1>All genre</h1>
+   <% for(g of genre) { %>
+    <ul>
+        <li>
+            <%=g.genre_name %>
+        </li>
+    </ul>
+    <% } %>

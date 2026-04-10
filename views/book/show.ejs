@@ -1,0 +1,7 @@
+<%- include('../layouts/boilerplate') %>
+
+    <% for(b of book) { %>
+    <h1><%=b.book_name%></h1>
+    <h2><%= b.first_name %> <%=b.last_name %></h2>
+    <p><%= b.book_description %></p>
+    <% } %>
