@@ -10,6 +10,7 @@ const genreRoutes = require('./routes/genreRoutes.js')
 const authorRoutes = require('./routes/authorRoutes.js')
 
 
+app.use(express.urlencoded({extended:true}))
 
 
 

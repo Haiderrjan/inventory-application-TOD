@@ -1,0 +1,21 @@
+<%- include('../layouts/boilerplate') %>
+
+<h1>Add a book:</h1>
+
+<form action="/book" method="POST">
+    <label for="name">Book Name:</label>
+    <input type="text" name="bookName">
+    
+    <label for="author">Author First Name:</label>
+    <input type="text" name="FirstName">
+
+     <label for="author">Author Last Name:</label>
+    <input type="text" name="LastName">
+
+    <label for="description">Book Description:</label>
+    <input type="text" name="description">
+
+    <label for="genre">Genre</label>
+    <input type="text" name="genre">
+    <button>submit</button>
+</form>
